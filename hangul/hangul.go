@@ -7,6 +7,7 @@ var (
 
 //HasConsonantSuffix returns true if s has Hangul consonant jamo at the end
 func HasConsonantSuffix(s string) bool {
+	//함수 설명 : 마지막 글자가 받침이 있는지에 대한 여부를 주는 함수
 	numEnds := 28
 	result := false
 	for _, r := range s {
