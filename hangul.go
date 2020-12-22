@@ -18,6 +18,6 @@ func HasConsonantSuffix(s string) bool {
 			result = index%numEnds != 0
 
 		}
-		return result
 	}
+	return result
 }
